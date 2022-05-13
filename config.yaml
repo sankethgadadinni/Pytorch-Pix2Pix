@@ -1,0 +1,18 @@
+config:
+  num_epochs: 100
+  dataset_name: "facades"
+  batch_size: 64
+  lr: 0.002
+  b1: 0.5
+  b2: 0.999
+  epoch: 0
+  decay_epoch: 100
+  img_height: 256
+  img_width: 256
+  channels: 3
+  num_samples: 500
+  sample_interval: 500
+  checkpoint_interval: -1
+
+
+
